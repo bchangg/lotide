@@ -31,7 +31,7 @@ const letterPositions = function(string) {
   return result;
 }
 
-// NOTE: Test conditions and constants;
+// Test conditions and constants;
 const test = {
   l: [0],
   i: [1, 11],
