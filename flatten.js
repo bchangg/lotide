@@ -18,7 +18,7 @@ const assertArraysEqual = function(arr1, arr2) {
 // @desc: Flattens the input array so that there are no nested eqArrays
 // @param: 1 array of any size, with any level of nesting (slightly beyond scope of question)
 // @return: 1 array that has all the values from the input array, but no nested array elements
-const flatten = function(original) {
+function flatten(original) {
   let flattened = [];
   const flattener = function(inputArray) {
     inputArray.forEach(function(item) {
