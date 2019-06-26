@@ -17,7 +17,7 @@ const assertEqual = function(actual, expected) {
 // @return: object with key value pairs indicating which ones have been logged
 const countOnly = function(allItems, itemsToCount) {
   const result = new Object();
-  // NOTE: SOLUTION 1 - O(n^2) time
+  // NOTE: SOLUTION 1 - O(n^m) time
   // for (let key in itemsToCount) {
   //   let count = 0;
   //   if (itemsToCount[key]) {
