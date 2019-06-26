@@ -10,6 +10,11 @@ const eqArrays = function(array1, array2) {
   return true;
 };
 
+// @desc: Assertion function to check if two arrays are equal, used in tests. Prints the results to
+//        the console.
+// @param: 2 arrays
+//         One of these will usually be user defined when testing
+// @return: nothing.
 const assertArraysEqual = function(arr1, arr2) {
   console.log(eqArrays(arr1, arr2));
 };

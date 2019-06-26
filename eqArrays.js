@@ -6,6 +6,9 @@ const assertEqual = function(actual, expected) {
   }
 };
 
+// @desc: Compares two arrays to see if they are equal to each other
+// @param: 2 arrays
+// @return: true or false
 const eqArrays = function(array1, array2) {
   if (array1.length !== array2.length) {
     return false;
