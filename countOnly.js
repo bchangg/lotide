@@ -32,7 +32,7 @@ const countOnly = function(allItems, itemsToCount) {
   //   }
   // }
 
-  // NOTE: SOUTION 2 - O(n) time, I think
+  // NOTE: SOUTION 2 - O(n) time
   for (let item of allItems) {
     if (itemsToCount[item]) {
       if (!result[item]) {
