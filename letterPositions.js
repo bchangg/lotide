@@ -11,7 +11,11 @@ const eqArrays = function(array1, array2) {
 };
 
 const assertArraysEqual = function(arr1, arr2) {
-  console.log(eqArrays(arr1, arr2));
+  if (eqArrays(actual, expected)) {
+    console.log(`✅✅✅ Assertion Passed: ${actual} === ${expected}`);
+  } else {
+    console.log(`🛑🛑🛑 Assertion Failed: ${actual} !== ${expected}`);
+  }
 };
 
 const letterPositions = function(string) {

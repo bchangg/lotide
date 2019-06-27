@@ -12,7 +12,11 @@ const eqArrays = function(array1, array2) {
 };
 
 const assertArraysEqual = function(arr1, arr2) {
-  console.log(eqArrays(arr1, arr2));
+  if (eqArrays(actual, expected)) {
+    console.log(`✅✅✅ Assertion Passed: ${actual} === ${expected}`);
+  } else {
+    console.log(`🛑🛑🛑 Assertion Failed: ${actual} !== ${expected}`);
+  }
 };
 
 // @desc: Flattens the input array so that there are no nested eqArrays
@@ -33,4 +37,16 @@ function flatten(original) {
   return flattened;
 }
 
-console.log(flatten([1, 2, [3, 4], 5, [[[[[[[6]]]]]]]]));
+console.log(flatten([1, 2, [3, 4], 5, [
+  [
+    [
+      [
+        [
+          [
+            [6]
+          ]
+        ]
+      ]
+    ]
+  ]
+]]));
