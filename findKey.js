@@ -46,5 +46,25 @@ const object2 = {
   occupation: "student",
   age: 25
 };
-console.log(findKey(object1, x => x.stars === 2)); // => "noma"
-console.log(findKey(object2, x => x === "student")); // => "noma"
+
+const object3 = {
+  box: {
+    deeperBox: {
+      evenDeeperBox: 5
+    }
+  },
+  box2: {
+    deeperBox: {
+      evenDeeperBox: 10
+    }
+  },
+  box3: {
+    deeperBox: {
+      evenDeeperBox: 15
+    }
+  }
+};
+
+assertEqual(findKey(object1, x => x.stars === 2), "noma"); // => "noma"
+assertEqual(findKey(object2, x => x === "student"), "occupation"); // => "noma"
+assertEqual(findKey(object3, x => x.deeperBox.evenDeeperBox === 10), "box2"); // => "noma"
