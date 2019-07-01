@@ -1,7 +1,3 @@
-const eqArrays = require("./eqArrays");
-const assertArraysEqual= require("./assertArraysEqual");
-
-
 // ACTUAL FUNCTION
 // @param: one array of any length
 // @return: value of the middle index(s)
