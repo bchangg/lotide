@@ -1,4 +1,4 @@
-const assertEqual = require("./assertEqual");
+// const assertEqual = require("./assertEqual");
 
 // @desc: Function takes a string, and returns an object that counts how many times each letter
 //        has appeared in the string

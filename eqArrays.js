@@ -1,4 +1,4 @@
-const assertEqual = require("./assertEqual");
+// const assertEqual = require("./assertEqual");
 
 // @desc: Compares two arrays to see if they are equal to each other
 // @param: 2 arrays

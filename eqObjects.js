@@ -1,4 +1,4 @@
-const assertEqual = require("./assertEqual");
+// const assertEqual = require("./assertEqual");
 const eqArrays = require("./eqArrays");
 
 // Function compares whether or not two objects are exactly the same
