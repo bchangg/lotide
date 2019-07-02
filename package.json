@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@bchangg/lotide",
   "version": "1.0.0",
-  "description": "## Description Lighthouse Labs project 1, basically implementing a new library",
+  "description": "This is a clone of Lotide, implemented during Lighthouse Labs by @bchangg",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/bchangg/lotide.git"
   },
-  "author": "",
+  "author": "Brian Chang",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/bchangg/lotide/issues"
